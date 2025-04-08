@@ -2,6 +2,8 @@
 
 ![Sologon 宣传图](assert/images/sologon.svg)
 
+![Sologon 宣传图](assert/images/sologon-cover2.svg)
+
 Sologon 是一款智能知识入库助手，帮助用户以极低的成本记录、管理和同步笔记、灵感、任务等碎片信息。
 
 ## 系统架构
