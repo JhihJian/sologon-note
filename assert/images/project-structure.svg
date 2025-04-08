@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <!-- 背景 -->
+  <rect width="1000" height="600" fill="#f8f9fa"/>
+  
+  <!-- 标题 -->
+  <text x="500" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#333">Sologon 项目结构</text>
+  
+  <!-- 前端结构 -->
+  <g transform="translate(250, 150)">
+    <rect x="-150" y="-100" width="300" height="200" rx="10" fill="#fff" stroke="#4a86e8" stroke-width="2"/>
+    <text x="0" y="-80" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">前端 (React)</text>
+    
+    <!-- 目录结构 -->
+    <g transform="translate(-120, -50)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#333">src/</text>
+      <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" fill="#333">├── components/</text>
+      <text x="0" y="50" font-family="Arial, sans-serif" font-size="14" fill="#333">├── pages/</text>
+      <text x="0" y="75" font-family="Arial, sans-serif" font-size="14" fill="#333">├── services/</text>
+      <text x="0" y="100" font-family="Arial, sans-serif" font-size="14" fill="#333">└── utils/</text>
+    </g>
+  </g>
+  
+  <!-- 后端结构 -->
+  <g transform="translate(750, 150)">
+    <rect x="-150" y="-100" width="300" height="200" rx="10" fill="#fff" stroke="#34a853" stroke-width="2"/>
+    <text x="0" y="-80" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">后端 (Go)</text>
+    
+    <!-- 目录结构 -->
+    <g transform="translate(-120, -50)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#333">backend/</text>
+      <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" fill="#333">├── cmd/</text>
+      <text x="0" y="50" font-family="Arial, sans-serif" font-size="14" fill="#333">├── internal/</text>
+      <text x="0" y="75" font-family="Arial, sans-serif" font-size="14" fill="#333">├── pkg/</text>
+      <text x="0" y="100" font-family="Arial, sans-serif" font-size="14" fill="#333">└── configs/</text>
+    </g>
+  </g>
+  
+  <!-- Chrome扩展 -->
+  <g transform="translate(500, 400)">
+    <rect x="-150" y="-100" width="300" height="200" rx="10" fill="#fff" stroke="#fbbc05" stroke-width="2"/>
+    <text x="0" y="-80" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">Chrome扩展</text>
+    
+    <!-- 目录结构 -->
+    <g transform="translate(-120, -50)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#333">chrome-extension/</text>
+      <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" fill="#333">├── src/</text>
+      <text x="0" y="50" font-family="Arial, sans-serif" font-size="14" fill="#333">├── public/</text>
+      <text x="0" y="75" font-family="Arial, sans-serif" font-size="14" fill="#333">└── manifest.json</text>
+    </g>
+  </g>
+  
+  <!-- 连接线 -->
+  <g transform="translate(500, 300)">
+    <path d="M -200,-100 C -200,-50 200,-50 200,-100" stroke="#666" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+    <path d="M -200,100 C -200,50 200,50 200,100" stroke="#666" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  </g>
+</svg> 

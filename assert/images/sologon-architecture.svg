@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 800">
+  <!-- 背景 -->
+  <rect width="1000" height="800" fill="#f8f9fa"/>
+  
+  <!-- 标题 -->
+  <text x="500" y="50" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#333">Sologon 系统架构</text>
+  
+  <!-- 前端层 -->
+  <g transform="translate(500, 150)">
+    <rect x="-450" y="-50" width="900" height="100" rx="5" fill="#f0f8ff" stroke="#3498db" stroke-width="2"/>
+    <text x="0" y="-20" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#3498db">前端系统</text>
+    
+    <!-- Chrome 插件 -->
+    <g transform="translate(-300, 15)">
+      <rect x="-100" y="-25" width="200" height="50" rx="5" fill="#fff" stroke="#3498db" stroke-width="2"/>
+      <text x="0" y="7" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Chrome 插件</text>
+      <text x="0" y="27" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">HTML/CSS/TypeScript</text>
+    </g>
+    
+    <!-- React Native App -->
+    <g transform="translate(0, 15)">
+      <rect x="-100" y="-25" width="200" height="50" rx="5" fill="#fff" stroke="#3498db" stroke-width="2"/>
+      <text x="0" y="7" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">React Native App</text>
+      <text x="0" y="27" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">跨平台移动应用</text>
+    </g>
+    
+    <!-- Web 管理端 -->
+    <g transform="translate(300, 15)">
+      <rect x="-100" y="-25" width="200" height="50" rx="5" fill="#fff" stroke="#3498db" stroke-width="2"/>
+      <text x="0" y="7" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Web 管理端</text>
+      <text x="0" y="27" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">React/TypeScript/Material-UI</text>
+    </g>
+  </g>
+  
+  <!-- API 网关 -->
+  <g transform="translate(500, 300)">
+    <rect x="-300" y="-50" width="600" height="100" rx="5" fill="#e6f9ff" stroke="#2ecc71" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2ecc71">API 网关 (Go - Gin/Echo)</text>
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">RESTful API, 认证授权, 请求路由</text>
+    
+    <!-- RESTful 端点示例 -->
+    <g transform="translate(-220, 0)">
+      <text x="0" y="-15" font-family="Consolas, monospace" font-size="10" text-anchor="start" fill="#333">POST /api/v1/notes</text>
+    </g>
+    <g transform="translate(-220, 0)">
+      <text x="120" y="-15" font-family="Consolas, monospace" font-size="10" text-anchor="start" fill="#333">GET /api/v1/tags</text>
+    </g>
+    <g transform="translate(-220, 0)">
+      <text x="240" y="-15" font-family="Consolas, monospace" font-size="10" text-anchor="start" fill="#333">GET /api/v1/projects</text>
+    </g>
+  </g>
+  
+  <!-- 智能 Agent -->
+  <g transform="translate(500, 450)">
+    <rect x="-300" y="-50" width="600" height="100" rx="5" fill="#f9f0ff" stroke="#9b59b6" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#9b59b6">智能 Agent (Python)</text>
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">意图识别, 内容分析, 上下文感知, 智能打标</text>
+    
+    <!-- 核心功能 -->
+    <g transform="translate(-220, 0)">
+      <text x="0" y="-15" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#333">🧠 NLP/ML 处理</text>
+    </g>
+    <g transform="translate(-220, 0)">
+      <text x="120" y="-15" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#333">🏷️ 智能标签</text>
+    </g>
+    <g transform="translate(-220, 0)">
+      <text x="240" y="-15" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#333">📝 内容结构化</text>
+    </g>
+  </g>
+  
+  <!-- MCP 存储服务 -->
+  <g transform="translate(500, 600)">
+    <rect x="-300" y="-50" width="600" height="100" rx="5" fill="#fff5e6" stroke="#e67e22" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#e67e22">MCP 存储服务 (Go)</text>
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">MCP 协议, 工具抽象, 数据存储</text>
+    
+    <!-- 工具示例 -->
+    <g transform="translate(-250, 0)">
+      <text x="0" y="-15" font-family="Consolas, monospace" font-size="10" text-anchor="start" fill="#333">tool_save_note()</text>
+    </g>
+    <g transform="translate(-250, 0)">
+      <text x="120" y="-15" font-family="Consolas, monospace" font-size="10" text-anchor="start" fill="#333">tool_search_notes()</text>
+    </g>
+    <g transform="translate(-250, 0)">
+      <text x="250" y="-15" font-family="Consolas, monospace" font-size="10" text-anchor="start" fill="#333">tool_list_tags()</text>
+    </g>
+  </g>
+  
+  <!-- 数据库 -->
+  <g transform="translate(500, 750)">
+    <rect x="-150" y="-40" width="300" height="80" rx="5" fill="#f2f2f2" stroke="#7f8c8d" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#7f8c8d">数据库</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">SQLite / PostgreSQL</text>
+  </g>
+  
+  <!-- 连接线 -->
+  <!-- 前端 -> API 网关 -->
+  <g>
+    <line x1="200" y1="200" x2="200" y2="300" stroke="#3498db" stroke-width="2" stroke-dasharray="5,5"/>
+    <polygon points="200,305 196,295 204,295" fill="#3498db"/>
+    
+    <line x1="500" y1="200" x2="500" y2="300" stroke="#3498db" stroke-width="2" stroke-dasharray="5,5"/>
+    <polygon points="500,305 496,295 504,295" fill="#3498db"/>
+    
+    <line x1="800" y1="200" x2="800" y2="300" stroke="#3498db" stroke-width="2" stroke-dasharray="5,5"/>
+    <polygon points="800,305 796,295 804,295" fill="#3498db"/>
+  </g>
+  
+  <!-- API 网关 -> 智能 Agent -->
+  <g>
+    <line x1="500" y1="350" x2="500" y2="450" stroke="#2ecc71" stroke-width="2" stroke-dasharray="5,5"/>
+    <polygon points="500,455 496,445 504,445" fill="#2ecc71"/>
+  </g>
+  
+  <!-- 智能 Agent -> MCP 存储服务 -->
+  <g>
+    <line x1="500" y1="500" x2="500" y2="600" stroke="#9b59b6" stroke-width="2" stroke-dasharray="5,5"/>
+    <polygon points="500,605 496,595 504,595" fill="#9b59b6"/>
+    <text x="520" y="550" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#9b59b6">MCP 协议</text>
+  </g>
+  
+  <!-- MCP 存储服务 -> 数据库 -->
+  <g>
+    <line x1="500" y1="650" x2="500" y2="750" stroke="#e67e22" stroke-width="2" stroke-dasharray="5,5"/>
+    <polygon points="500,755 496,745 504,745" fill="#e67e22"/>
+  </g>
+  
+  <!-- 图例 -->
+  <g transform="translate(850, 700)">
+    <rect x="-50" y="-90" width="180" height="120" rx="5" fill="#ffffff" stroke="#cccccc" stroke-width="1" fill-opacity="0.9"/>
+    <text x="0" y="-70" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="start" fill="#333">图例:</text>
+    
+    <rect x="-40" y="-55" width="20" height="10" fill="#f0f8ff" stroke="#3498db" stroke-width="1"/>
+    <text x="-10" y="-45" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">前端系统</text>
+    
+    <rect x="-40" y="-35" width="20" height="10" fill="#e6f9ff" stroke="#2ecc71" stroke-width="1"/>
+    <text x="-10" y="-25" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">API 网关</text>
+    
+    <rect x="-40" y="-15" width="20" height="10" fill="#f9f0ff" stroke="#9b59b6" stroke-width="1"/>
+    <text x="-10" y="-5" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">智能 Agent</text>
+    
+    <rect x="-40" y="5" width="20" height="10" fill="#fff5e6" stroke="#e67e22" stroke-width="1"/>
+    <text x="-10" y="15" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">MCP 存储服务</text>
+  </g>
+</svg> 
